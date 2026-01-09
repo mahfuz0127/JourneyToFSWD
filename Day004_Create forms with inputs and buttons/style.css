@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(207, 161, 161);
+    padding: auto;
+}
+button{
+    font-size: 25px;
+    background-color: aqua;
+    color: black;
+    border-radius: 25px;
+}

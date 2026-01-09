@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create forms with inputs and buttons</title>
+</head>
+<body>
+    <h1>from to apply for T-teck Ltd. </h1>
+    <div>
+        <form action="post">
+            <label for="username">Enter your username: </label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        </form>
+    </div>
+    <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+    <div>
+        <input type="checkbox" name="Support" id="support" value="yes">
+        <label for="support">Support me to encourage.</label>
+    </div>
+    <div>
+        <label for="comment">Enter your comment here....</label>
+        <textarea id="comment" name="content" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">banana</option>
+            <option value="cherry">cherry</option>
+        </select>
+    </div>
+
+    <div>
+        to visit the google -- 
+        <a href="https://www.google.com/" target="_blank">
+            <button>click me</button>
+        </a>
+    </div>
+
+    <!-- add a submit button as a button element -->
+    <button type="submit">Submit</button>
+</body>
+</html>
